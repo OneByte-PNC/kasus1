@@ -1,0 +1,60 @@
+body {
+    font-family: cursive;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: wheat;
+}
+
+.tabel-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.tabel{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+form{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[select]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    background-color: green;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}

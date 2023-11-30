@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WAKTU TEMPUH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div >
+    <div class="tabel-container" >
     <h2>Menghitung Waktu tempuh</h2>
-    <div class="px-5 py-5 border" style="width:40%">
+    <div class="tabel">
         <form action="" method="post">
             <label for="jarak"> Jarak (km):</label>
             <input type="text" id="jarak" name="jarak" required><br><br>
